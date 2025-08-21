@@ -1,5 +1,6 @@
 package com.mmauridev.insteelshipping.controllers;
 
+import com.mmauridev.insteelshipping.controllers.api.FreightController;
 import com.mmauridev.insteelshipping.models.Freight;
 import com.mmauridev.insteelshipping.services.FreightService;
 import org.junit.jupiter.api.BeforeEach;

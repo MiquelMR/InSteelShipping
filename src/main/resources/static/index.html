@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Insteel Shipping</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="bootstrap-5.3.7/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Spring Boot Page</title>
 </head>
 <body>
-<h1>Welcome to Insteel Shipping</h1>
-<p>Use the navigation below to test the API:</p>
-<ul>
-    <li><a href="/api/clients">Clients</a></li>
-    <li><a href="/api/containers">Containers</a></li>
-    <li><a href="/api/freights">Freights</a></li>
-    <li><a href="/api/operations">Operations</a></li>
-    <li><a href="/api/routes">Routes</a></li>
-</ul>
-<script src="bootstrap-5.3.7/js/bootstrap.bundle.js"></script>
+<div class="container">
+        <h1 class="h1">InSteelShipping</h1>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="/clients">Clients</a></li>
+            <li class="list-group-item"><a href="/containers">Containers</a></li>
+            <li class="list-group-item"><a href="/freights">Freights</a></li>
+            <li class="list-group-item"><a href="/operations">Operations</a></li>
+            <li class="list-group-item"><a href="/routes">Routes</a></li>
+        </ul>
+</div>
 </body>
 </html>

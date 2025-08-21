@@ -1,4 +1,4 @@
-package com.mmauridev.insteelshipping.controllers;
+package com.mmauridev.insteelshipping.controllers.api;
 
 import com.mmauridev.insteelshipping.models.Route;
 import com.mmauridev.insteelshipping.services.RouteService;

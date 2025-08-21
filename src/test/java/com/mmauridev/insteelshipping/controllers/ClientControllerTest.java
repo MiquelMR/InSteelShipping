@@ -1,5 +1,6 @@
 package com.mmauridev.insteelshipping.controllers;
 
+import com.mmauridev.insteelshipping.controllers.api.ClientController;
 import com.mmauridev.insteelshipping.models.Client;
 import com.mmauridev.insteelshipping.services.ClientService;
 import org.junit.jupiter.api.BeforeEach;
